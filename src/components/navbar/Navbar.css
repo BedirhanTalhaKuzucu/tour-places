@@ -1,0 +1,52 @@
+
+
+.navbar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-list{
+    
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    font-weight: 100;
+    font-size: large;
+    list-style-type: none;
+    display: flex;
+    
+}
+
+li{
+    padding: 2rem 2rem;
+
+}
+
+li:hover{
+    background-color: #7ad0f8;
+    color: black;
+    cursor:grab;
+}
+
+@media only screen and (max-width: 1000px){
+    li{
+        padding: 2rem 1rem;
+    
+    }
+}
+
+@media only screen and (max-width: 650px){
+    li{
+        padding: 0.5rem 0.5rem;
+        width: 100%;
+        display: block;
+    }
+
+    .navbar-list{
+    
+        flex-direction: column;
+    }
+}
+
